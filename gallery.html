@@ -122,79 +122,112 @@
       <div class="container-xxl py-5 page-header position-relative mb-5">
         <div class="container py-5">
           <h1 class="display-2 text-white animated slideInDown mb-4">
-            Pottery Making
+            Gallery
           </h1>
         </div>
       </div>
       <!-- Page Header End -->
 
-      <!-- Details Start -->
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="bg-light rounded">
-            <div class="row g-0">
-              <div
-                class="col-lg-6 wow fadeIn"
-                data-wow-delay="0.1s"
-                style="min-height: 400px"
-              >
-                <div class="position-relative h-100">
+      <!-- Gallery Start -->
+      <div
+        class="container-fluid text-white-50 footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-12 col-md-12">
+              <h3 class="text-white mb-4">Photo Gallery</h3>
+              <div class="row g-2 pt-2">
+                <div class="col-4">
                   <img
-                    class="position-absolute w-100 h-100 rounded"
-                    src="img/pottery.jpeg"
-                    style="object-fit: cover"
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-1.jpg"
+                    alt=""
                   />
                 </div>
-              </div>
-              <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <div
-                  class="h-100 d-flex flex-column justify-content-center p-5"
-                >
-                  <h1 class="mb-4">
-                    "Crafting with Clay, Shaping with Passion: Welcome to our
-                    Pottery Classes"
-                  </h1>
-                  <p class="mb-4">
-                    At Al Ghala Children Skill Development Centre, we're excited
-                    to introduce pottery making classes, offering children the
-                    opportunity to dive into the world of clay art and ceramics.
-                    Our pottery making classes provide a creative and hands-on
-                    environment for young learners to explore their artistic
-                    talents.
-                  </p>
-                  <p class="mb-4">
-                    Under the guidance of experienced instructors, children will
-                    have the chance to explore various pottery techniques,
-                    including hand-building and wheel-throwing. These activities
-                    not only foster creativity but also develop fine motor
-                    skills, patience, and attention to detail.
-                  </p>
-                  <p class="mb-4">
-                    Pottery making allows children to craft functional pieces,
-                    such as bowls, mugs, and vases, as well as sculptural
-                    creations that reflect their unique ideas and personality.
-                    It's a versatile and enjoyable way for children to engage
-                    with the world of art and develop a love for clay and
-                    ceramics.
-                  </p>
-                  <p class="mb-4">
-                    Al Ghala Children Skill Development Centre is dedicated to
-                    nurturing your child's artistic talents and providing them
-                    with the skills to shape their imagination through the
-                    versatile medium of pottery making. Join us, and watch your
-                    child's creativity and self-expression flourish in our
-                    inspiring and supportive environment.
-                  </p>
-                  <a class="btn btn-primary py-3 px-5" href=""
-                    >Register Now<i class="fa fa-arrow-right ms-2"></i
-                  ></a>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-6.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1"
+                    src="img/classes-5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded bg-light p-1 zoomable-image"
+                    src="img/classes-6.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Details End -->
+      <!-- Gallery End -->
 
       <!-- Footer Start -->
       <div
@@ -274,6 +307,29 @@
       <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
         ><i class="bi bi-arrow-up"></i
       ></a>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="imageModal"
+        tabindex="-1"
+        aria-labelledby="imageModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="modal-body" id="modalBody">
+              <!-- Zoomed-in image will be inserted here dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -283,6 +339,32 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Attach click event to all elements with class 'zoomable-image'
+        $(".zoomable-image").on("click", function () {
+          // Get the source of the clicked image
+          var imageUrl = $(this).attr("src");
+
+          // Create modal content with the zoomed-in image
+          var modalContent = '<img src="' + imageUrl + '" class="img-fluid">';
+
+          // Create a Bootstrap modal
+          var modal = new bootstrap.Modal(
+            document.getElementById("imageModal"),
+            {
+              keyboard: true,
+            }
+          );
+
+          // Set the modal content
+          $("#modalBody").html(modalContent);
+
+          // Show the modal
+          modal.show();
+        });
+      });
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
